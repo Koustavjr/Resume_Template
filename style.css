@@ -1,9 +1,10 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12px;
-    max-width: 950px;
+    max-width: 960px;
     margin: auto;
 }
+
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
@@ -23,8 +24,8 @@ h3 {
 
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
+    grid-template-columns: 50% 50%;
+    margin-top:3em;
 }
 
 
@@ -38,7 +39,7 @@ section {
 }
 
 i {
-    margin-right: .5em;
+    margin-right: .6em;
 }
 
 p {
@@ -48,13 +49,13 @@ p {
 hr {
     border: none;
     background-color: lightgray;
-    height: 1px;
+    height: 3px;
 }
 
-h1, h2, h3 {
-    font-weight: 100;
+h1, h2 ,h3{
+    font-weight: 200;
     margin-bottom: 0;
 }
 #mainLeft {
-    border-right: 1px solid lightgray;
+    border-right: 2px dashed gray;
 }
